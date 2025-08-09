@@ -14,11 +14,11 @@ student(lname='Practice', fname='Geeks')
 
 # Arbitrary Keyword  Arguments
     # *args in Python (Non-Keyword Arguments)
-def myFun(*argv):
+def myFun1(*argv):
     for arg in argv:
         print(arg)
 
-myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
+myFun1('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 
     # **kwargs in Python (Keyword Arguments)
 def myFun(**kwargs):
